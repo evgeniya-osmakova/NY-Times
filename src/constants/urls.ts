@@ -1,0 +1,1 @@
+export const IMAGE_BASE_URL = 'https://static01.nyt.com/'; 

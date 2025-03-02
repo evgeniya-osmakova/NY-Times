@@ -1,0 +1,41 @@
+.newsList {
+    width: 100%;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.groupHeader {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    color: var(--color-text-primary);
+    margin-bottom: 11px;
+}
+
+.cardGroup {
+    margin-top: 32px;
+
+    &:first-child {
+        margin-top: 11px;
+    }
+
+    &:not(:first-child) .groupHeader {
+        margin-bottom: 32px;
+    }
+}
+
+.cardList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 32px;
+}
+
+.loadMore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    gap: 12px;
+}

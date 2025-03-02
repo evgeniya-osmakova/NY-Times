@@ -1,0 +1,23 @@
+.app {
+    position: relative;
+    margin: 0 auto;
+    width: 360px;
+    height: 100vh;
+    background-color: var(--color-background);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.appContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - var(--header-height));
+    overflow-y: auto;
+}
+
+.main {
+    flex: 1 0 auto;
+    min-height: min-content;
+}

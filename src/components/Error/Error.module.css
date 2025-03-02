@@ -1,0 +1,32 @@
+.error {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.errorTitle {
+    color: var(--color-text-primary);
+}
+
+.errorMessage {
+    color: var(--color-text-secondary);
+    font-size: 14px;
+}
+
+.retryButton {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--color-primary);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}

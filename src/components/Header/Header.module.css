@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: var(--header-height);
+    background-color: var(--color-background);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.menuButton {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    transition: opacity 0.2s ease;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+.menuIcon {
+    width: 24px;
+    height: 24px;
+}
+
+.title {
+    flex: 1;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: var(--color-text-primary);
+    text-align: center;
+    margin: 0 44px 0 0;
+}

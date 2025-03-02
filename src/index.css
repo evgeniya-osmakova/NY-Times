@@ -1,0 +1,39 @@
+@import './styles/variables.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family), serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: var(--color-dark-text);
+    background-color: var(--color-dark-background);
+  }
+
+  a {
+    color: var(--color-dark-link);
+  }
+
+  a:hover {
+    color: var(--color-dark-link-hover);
+  }
+}
